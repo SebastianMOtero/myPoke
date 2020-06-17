@@ -11,7 +11,7 @@ function love.load()
 		resizable = true
 	})
 
-	gStateStack = gStateStack()
+	gStateStack = StateStack()
 	gStateStack:push(StartState())
 
 	love.keyboard.keysPressed = {}
