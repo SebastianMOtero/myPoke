@@ -5,6 +5,8 @@ Timer = require 'lib/knife.timer'
 
 require 'src/Animation'
 require 'src/constants'
+require 'src/Party'
+require 'src/Pokemon'
 require 'src/pokemon_defs'
 require 'src/StateMachine'
 require 'src/Util'
