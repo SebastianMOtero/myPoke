@@ -12,6 +12,16 @@ require 'src/Util'
 require 'src/states/BaseState'
 require 'src/states/StateStack'
 
+require 'src/states/entity/EntityBaseState'
+require 'src/states/entity/EntityIdleState'
+require 'src/states/entity/EntityWalkState'
+require 'src/states/entity/PlayerIdleState'
+require 'src/states/entity/PlayerWalkState'
+
+require 'src/entity/entity_defs'
+require 'src/entity/Entity'
+require 'src/entity/Player'
+
 require 'src/gui/Panel'
 require 'src/gui/Textbox'
 
