@@ -1,7 +1,7 @@
 PlayState = Class{__includes = BaseState}
 
 function PlayState:init()
-	-- self.level = Level()
+	self.level = Level()
 
 	gSounds['field-music']:setLooping(true)
 	gSounds['field-music']:play()
@@ -13,5 +13,5 @@ function PlayState:update(dt)
 end
 
 function PlayState:render()
-    -- self.level:render()
+	self.level:render()
 end

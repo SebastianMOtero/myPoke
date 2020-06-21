@@ -12,10 +12,19 @@ require 'src/Util'
 require 'src/states/BaseState'
 require 'src/states/StateStack'
 
+require 'src/gui/Panel'
+require 'src/gui/Textbox'
+
 require 'src/states/game/StartState'
 require 'src/states/game/PlayState'
 require 'src/states/game/FadeInState'
 require 'src/states/game/FadeOutState'
+require 'src/states/game/DialogueState'
+
+require 'src/world/Level'
+require 'src/world/tile_ids'
+require 'src/world/Tile'
+require 'src/world/TileMap'
 
 gTextures = {
 	['tiles'] = love.graphics.newImage('graphics/sheet.png'),

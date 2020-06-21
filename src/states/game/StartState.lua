@@ -34,7 +34,11 @@ function StartState:update(dt)
 
 			gStateStack:pop()
 			gStateStack:push(PlayState())
-			--aS
+			gStateStack:push(DialogueState("" .. 
+				"Welcome to the world of 50Mon! To start fighting monsters with your own randomly assigned" ..
+				" monster, just walk in the tall grass! If you need to heal, just press 'P' in the field! " ..
+				"Good luck! (Press Enter to dismiss dialogues)"
+			))
 			gStateStack:push(FadeOutState({
 				r = 1, g = 1, b = 1
 			}, 1,
