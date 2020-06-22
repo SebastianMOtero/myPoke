@@ -20,18 +20,28 @@ require 'src/states/entity/EntityWalkState'
 require 'src/states/entity/PlayerIdleState'
 require 'src/states/entity/PlayerWalkState'
 
+require 'src/battle/Opponent'
+require 'src/battle/BattleSprite'
+
 require 'src/entity/entity_defs'
 require 'src/entity/Entity'
 require 'src/entity/Player'
 
 require 'src/gui/Panel'
 require 'src/gui/Textbox'
+require 'src/gui/ProgressBar'
+require 'src/gui/Selection'
+require 'src/gui/Menu'
 
+require 'src/states/game/BattleState'
+require 'src/states/game/BattleMenuState'
+require 'src/states/game/BattleMessageState'
 require 'src/states/game/StartState'
 require 'src/states/game/PlayState'
 require 'src/states/game/FadeInState'
 require 'src/states/game/FadeOutState'
 require 'src/states/game/DialogueState'
+require 'src/states/game/TakeTurnState'
 
 require 'src/world/Level'
 require 'src/world/tile_ids'

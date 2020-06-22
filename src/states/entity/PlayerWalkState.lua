@@ -28,7 +28,7 @@ function PlayerWalkState:checkForEncounter()
 			}, 1, 
 			
 			function()
--- 				gStateStack:push(BattleState(self.entity))
+				gStateStack:push(BattleState(self.entity))
 				gStateStack:push(FadeOutState({
 					r = 1, g = 1, b = 1,
 				}, 1,
